@@ -116,6 +116,11 @@ img {
     url(../img/bg_banner2.jpg);
 }
 
+.span-title{
+  color: #ff4d29;
+  font-size: 44px;
+}
+
 /* Owl Caraosel */
 .owl-prev,
 .owl-next{
