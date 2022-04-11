@@ -27,6 +27,11 @@ img {
   width: 100%;
 }
 
+section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 #logo{
   width:80% !important;
 }
@@ -157,4 +162,32 @@ img {
 .owl-prev:hover,
 .owl-next:hover{
   background-color: #ff4d29 !important;
+}
+
+
+/* # Info Box */
+.info-box {
+  display: flex;
+  align-items: center;
+}
+.info-box img{
+  width: 70px;
+  margin-right:24px;
+
+}
+
+/* Milestone */
+#milestone{
+  background: linear-gradient(rgba(9, 32, 50, 0.7),rgba(9, 32, 50, 0.7)),
+  url(../img/bg_banner2.jpg);
+
+}
+
+#milestone .display-4,
+#milestone p{
+  color: #ffffff;
+}
+
+#milestone .display-4{
+  font-weight: 700;
 }
