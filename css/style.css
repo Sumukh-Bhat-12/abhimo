@@ -6,8 +6,6 @@ body {
   color: #516171;
 }
 
-body, html { overflow-x:hidden; }
-
 h1,
 h2,
 h3,
@@ -188,9 +186,8 @@ section {
 
 /* Milestone */
 #milestone {
-  /* background: linear-gradient(rgba(9, 32, 50, 0.7), rgba(9, 32, 50, 0.7)),
-    url(../img/bg_banner2.jpg); */
-    background: #092032;
+  background: linear-gradient(rgba(9, 32, 50, 0.7), rgba(9, 32, 50, 0.7)),
+    url(../img/bg_banner2.jpg);
 }
 
 #milestone .display-4,
@@ -219,7 +216,7 @@ section {
 }
 
 /* Project */
-/* 
+
 #project-slider .owl-next,
 #project-slider .owl-prev {
   background-color: rgba(255, 255, 255, 0.5) !important;
@@ -274,7 +271,7 @@ section {
   display: inline-block;
   vertical-align: middle;
   margin-right: 12px;
-} */
+}
 
 /* Team */
 .team-member{
@@ -323,7 +320,7 @@ section {
 }
 
 /* Reviews */
-/* #reviews{
+#reviews{
   background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)),
   url(../img/bg_banner1.jpg);
 }
@@ -360,7 +357,7 @@ section {
 
 .owl-dot.active span{
   background-color: #ff4d29 !important;
-} */
+}
 
 /* Footer */
 footer{
@@ -368,13 +365,12 @@ footer{
   padding-bottom: 20px;
   color:#fff;
   text-align: center;
-  /* background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)),
-  url(../img/bg_banner1.jpg); */
-  background: #092032;
+  background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)),
+  url(../img/bg_banner1.jpg);
 }
 
 
-footer .navbar-brand1{
+footer .navbar-brand{
   color:#fff;
   margin-bottom: 24px;
   display: inline-block;
