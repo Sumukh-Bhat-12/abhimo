@@ -6,6 +6,11 @@ body {
   color: #516171;
 }
 
+.justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 h1,
 h2,
 h3,
