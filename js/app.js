@@ -1,4 +1,4 @@
-AOS.init();
+
 
 $(document).ready(function () {
   //Hero Slider
